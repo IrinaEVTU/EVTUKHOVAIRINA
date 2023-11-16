@@ -50,7 +50,7 @@ body{
     background-color: rgb(255, 224, 112);
 }
 .content{
-padding: auto;
+padding: 0;
 background-image: url(../ball.png);
 background-position: right;
 background-repeat: repeat-y;
