@@ -37,14 +37,14 @@ body{
 .menu{
     padding-top: 20px;
     text-align: center;
-    background-color: bisque;
+
 
 }
 .catalog{
 
     float:left;
-    text-align:padding:20px;
-   /* height:500px;*/
+    padding:20px;
+   
     width:330px;
     font-weight:bold;
     font-size: 20px; 
