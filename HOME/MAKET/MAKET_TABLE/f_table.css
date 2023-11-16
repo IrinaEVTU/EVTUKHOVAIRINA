@@ -20,7 +20,6 @@ body{
     
 }
 .title{
-    
     text-align: center;
     font-size: 50px;
     font-weight: 300;
@@ -49,7 +48,7 @@ body{
     padding:20px;
    
     width:330px;
-    height: 450px;
+    height: 650px;
     font-weight:bold;
     font-size: 20px; 
     background-color: rgb(255, 224, 112);
