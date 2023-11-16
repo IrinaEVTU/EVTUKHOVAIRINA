@@ -4,8 +4,7 @@ body{
     box-sizing: border-box;
 }
 .table{
-    /*border-collapse: collapse;*/
-    /*width: 100%;*/
+    
     overflow: auto;
 }
 .header{
@@ -34,8 +33,7 @@ body{
     font-size: 25px;
     overflow: auto;
 
-    
-}
+    }
 
    
 
