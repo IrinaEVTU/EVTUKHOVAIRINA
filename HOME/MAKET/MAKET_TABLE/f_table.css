@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 .table{
-    border-collapse: collapse;
+    /*border-collapse: collapse;*/
     width: 100%;
 }
 .header{
