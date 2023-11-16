@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.header{
+    text-align:center;
+    padding:20px;
+    height:50px; 
+    width:1000px;
+    color:blue;
+    font-size: 30px; 
+    font-weight: 300; 
+    background-color:rgb(172, 192, 201)
+    
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    
+}
+
+ .football{
+    float: left;
+    width: 350px;
+}
+.text{
+    font-size: 35px;
+    font-weight: 200;
+    
+}
+.menu{
+    padding-top: 20px;
+    text-align: center;
+    background-color: bisque;
+
+}
+.catalog{
+
+    float:left;
+    text-align:padding:20px;
+   /* height:500px;*/
+    width:330px;
+    font-weight:bold;
+    font-size: 20px; 
+    background-color: rgb(255, 224, 112);
+}
+.content{
+padding-bottom: 400px;
+background-image: url(../ball.png);
+background-position: right;
+background-repeat: repeat-y;
+}
+.footer{
+    /*color: blue;
+    height: 100px;
+    font-size: 40px;
+    background-color: aquamarine;
+    text-align: center;*/
+
+
+    text-align:center;
+    padding:20px;
+    height:50px; 
+    width:1000px;
+    color:blue;
+    font-size: 30px;
+    font-weight: 300;
+    background-color:rgb(172, 192, 201)
+}
