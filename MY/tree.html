@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- div:first-child {
+  color: red} - псевдокласс, выбирает те, которые в своём контейнере являются первыми
+ :last-child - являются последними
+ :nth-child - в своём контейнере под номерами с некоторыми интервалами
+ :first-of-type - первыми среди элементов того же типа
+ ___________________________________________________
+ иерархические селекторы
+ h3 + p (подходящий под селектор2, который сразу после селектора1)
+h3 ~ p (подходящим селекторам 2, которые идут после селектора 1)
+_____________________________________________________
+div.out - соответсвует тегам DIV, имеющий класс .out
+div.out.main - соответствует тегам DIV, имеющим одновременно классы out и main
+a#main - соответствует тегу А, имеющий идентификатор main
+img[src$='.jpeg'] - тегам IMG, у которых атрибут SRC заканчивается на ".jpeg"
+a.back[href^='http://'] - соответсвует тегам А, имеющим класс back, у которых атрибут HREF начинается
+                         на "http://"
+* (универсальный, всем элементам)
+div > span > p {} - только второй уровень
+div > span {} - только первый уровень 
+-->
+
+    <style>
+        div>ul>li>a {color: red}
+        li>div>ul>li>a {color: indigo; font-family: fantasy;}
+        div>ul>li>span>a {color: green}
+        div>ul>li>em>a {color: blue }
+        /*div>ul>li>em>a:last-child {color:chocolate; font-family: fantasy;}*/
+        *p { color: yellow; font-family: fantasy;}
+
+
+
+
+
+      
+    </style>
+
+</head>
+
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <a>1 red</a>
+                <!--1 red-->
+            </li>
+            <li>
+                <span>
+                    <a>2 green</a>
+                    <!--2 green -->
+                </span>
+            </li>
+            <li>
+                <em>
+                    <a>3 blue</a>
+                    <!--3 blue-->
+                </em>
+            </li>
+
+        </ul>
+        <p>
+            <em>
+                <a>4 yellow</a>
+                <!--4--yellow-->
+            </em>
+        </p>
+        <span>
+            <em>
+                <a>5 black</a>
+                <!--5 black-->
+            </em>
+        </span>
+
+    </div>
+
+    <ul>
+        <li>
+            <a>6 orange</a>
+            <!--6 orange -->
+            <span>
+                <a>7 pink</a>
+                <!--7 rose pink-->
+            </span>
+            <em>
+                <a>8 violet</a>
+                <!--8 violet -->
+            </em>
+        </li>
+        <li>
+            <p>
+                <em>
+                    <a> 9 aqua </a>
+                    <!--9 aqua -->
+                </em>
+            </p>
+        </li>
+        <li>
+            <div>
+                <p>
+                    <a> 13 white</a>
+                    <!--13 white -->
+                </p>
+                <ul>
+                    <li>
+                        <a> 10 indigo</a>
+                        <!--10 indigo -->
+                    </li>
+                    <li>
+                        <em>
+                            <a> 11 chocolota </a>
+                            <!--11 chocolota -->
+                        </em>
+                    </li>
+                    <li>
+                        <span>
+                            <a>12 brown</a>
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
