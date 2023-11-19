@@ -10,7 +10,7 @@ body{
 .header{
     text-align:center;
     padding:20px;
-    height:50px; 
+    height:100px; 
     width:900px;
     color:blue;
     font-size: 30px; 
@@ -44,12 +44,13 @@ body{
     margin: 0;
    
     width:330px;
-    height: 450px;
+    /*height: 450px;*/
     font-weight:bold;
     font-size: 20px; 
     background-color: rgb(255, 224, 112);
 }
 .content{
+    
 padding: 0;
 background-image: url(../ball.png);
 background-position: right;
@@ -58,7 +59,7 @@ background-repeat: repeat-y;
 .footer{
    text-align:center;
     padding:20px;
-    height:50px; 
+    height:100px; 
     width:900px;
     color:blue;
     font-size: 30px;

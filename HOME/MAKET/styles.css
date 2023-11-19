@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: double 5px white;
+    background: url(../MAKET/ball.png) 20% top repeat-y;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width: 200px;
+    float: right;
+}
+
+.center{
+    margin-left: 22%;
+    margin-right: 220px;
+}
+
+.spacer{
+    clear: both;
+}
+
+.second_background{
+    background: url(../MAKET/ball.png) left top no-repeat, 
+    url(../MAKET/ball.png) left bottom no-repeat,
+    url(../MAKET/ball.png) 20% top no-repeat,
+    url(../MAKET/ball.png) 20% bottom no-repeat,
+    url(../MAKET/ball.png) right top no-repeat,
+    url(../MAKET/ball.png) right bottom no-repeat,
+    url(../MAKET/ball.png) right top no-repeat,
+    url(../MAKET/ball.png) right bottom no-repeat,
+    url(../MAKET/ball.png) right top repeat-y;
+}
