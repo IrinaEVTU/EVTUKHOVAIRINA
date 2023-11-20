@@ -66,47 +66,26 @@ https://open-source-peace.github.io/w3schoolsrus/html/html_images_picture.html#g
 </head>
 
 <body>
-  <h4>   элемент picture Адаптирует картинки под разные устройства и поддерживаемые форматы.
+<!-- <h4>   элемент picture Адаптирует картинки под разные устройства и поддерживаемые форматы.
     https://doka.guide/html/picture/
-  </h4>
+
+  </h4> -->
     <picture>
 
-        <img
-        src="MAKET/foto_02112023.png"  alt="foto"
-        srcset=" 400w, images/800.jpg 800w, images/1200.jpg 1200w"
-        sizes="(min-width: 700px) 75vw, 100vw">
+       <source srcset="../MAKET/football.png" media="(min-width:1330px)">
+       <source srcset="../MAKET/football.png"  media="(min-width:992px)">
+       <source srcset="../MAKET/football.png"  media="(max-width:992px)">
+       <img src="../MAKET/football.png" alt="Размеры экрана">
 
     </picture>
 
+    <img src="../MAKET/football.png" alt="Размеры экрана">
+<!--
+    <source srcset="1300x400.jpg" type="image/jpg" media="(min-width:1330px)"/>
+    <source srcset="800x400.jpg" type="image/jpg" media="(min-width:992px)"/>
+    <source srcset="400x600.jpg" type="image/jpg" media="(max-width:992px)"/>-->
 
-    <picture>
-        <!-- <source srcset="../images/img_avatar.png">-->
-        <source srcset="MAKET/ball.png">
-         <img src="../images/img_beatles.gif" alt="Beatles" style="width:auto;">
-       </picture>
-
-
-
-       <picture>
-        <source srcset="320.jpg" media="(max-width: 800px)">
-        <img src="640.jpg" alt="Абстрактное изображение">
-
-        Как понять Скопировать ссылку "Как понять"
-Одна и та же страница может быть открыта на разных устройствах и в браузерных окнах разной ширины.
- У телефона небольшой экран, и было бы круто не загружать полноразмерные картинки с большим разрешением.
-  В CSS мы можем изменять фон элемента (background-image) в зависимости от ширины экрана, 
-  используя медиавыражения. Но если изображение контентное, вставлено в HTML при помощи тега <img>,
- то CSS нам уже не поможет. Мы должны использовать теги <picture> и <source>.
-
-
-
-
-  Браузер анализирует каждый тег <source> по порядку, останавливается на первом подходящем под текущие условия и отображает картинку из атрибута srcset. Другие теги <source> не анализируются. Если тег <picture> не поддерживается браузером
-     или ни один из тегов <source> не подходит под условия, то отображается картинка из тега <img>.
-      </picture>
-
-
-
+    
 </body>
 
 </html>
