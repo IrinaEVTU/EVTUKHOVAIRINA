@@ -5,30 +5,33 @@
 }
 
 .container{
-    border: double 5px white;
+    border: double 0px white;
     background: url(../MAKET/ball.png) 20% top repeat-y;
 }
 
 .left{
     width: 20%;
     float: left;
+    background-color: green;
 }
 
 .right{
     width: 200px;
     float: right;
+    background-color: rosybrown;
 }
 
 .center{
     margin-left: 22%;
     margin-right: 220px;
+    background-color: fuchsia;
 }
 
-.spacer{
+.clear{
     clear: both;
 }
 
-.second_background{
+.ball{
     background: url(../MAKET/ball.png) left top no-repeat, 
     url(../MAKET/ball.png) left bottom no-repeat,
     url(../MAKET/ball.png) 20% top no-repeat,
