@@ -29,7 +29,7 @@ span {
 
 
 .third a::after {
-    content:'Ι';
+    content:'❙';
     color: red;
     
 }
