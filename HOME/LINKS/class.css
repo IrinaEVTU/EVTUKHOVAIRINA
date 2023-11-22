@@ -20,12 +20,11 @@ div.first a {
    border-right: 1px solid red;
 }
 
-.create-line-left {
-    padding-left: 20px;
-    /* необходим для формирования позиций линий */
-    position: relative;
-    /* блок будет занимать ширину по размеру контента в нём*/
-    display: inline-block;
+span {
+    color: red;
+    font-weight: bolder;
+    height: 200;
+    
   }
   
   .create-line-left:before{ 
