@@ -1,0 +1,14 @@
+a:hover {
+    color: #CE242B;
+    /* Цвет ссылки при наведении */
+    text-decoration: underline;
+    /* Добавляем подчёркивание */
+
+}
+
+a {
+    color: green;
+    /* Цвет обычной ссылки */
+    text-decoration: none;
+    /* Убираем подчёркивание у ссылок */
+}
