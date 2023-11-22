@@ -12,39 +12,24 @@ a {
     /* Цвет обычной ссылки */
     text-decoration: none;
     /* Убираем подчёркивание у ссылок */
-    
+
 }
 
 div.first a {
-    
-   border-right: 1px solid red;
+
+    border-right: 1px solid red;
 }
 
 span {
     color: red;
     font-weight: bolder;
     height: 200;
+
+}
+
+
+.third a::after {
+    content:'Ι';
+    color: red;
     
-  }
-  
-  .create-line-left:before{ 
-    content: " ";
-    background: #33CCFF;
-    width: 2px;
-    height: 50px;
-    /* линия смещена на 10px слева от текста*/
-    left: 10px;
-    /* включаем абсолютное позиционирование относительно блока с relative */
-    position: absolute;
-  }
-  
-  .create-line-left:after{ 
-    content: " ";
-    background: #333333;
-    width: 2px;
-    height: 50px;
-    /* линия смещена на 10px справа от текста*/
-    right: -10px;
-    /* включаем абсолютное позиционирование относительно блока с relative */
-    position: absolute;
-  }
+}

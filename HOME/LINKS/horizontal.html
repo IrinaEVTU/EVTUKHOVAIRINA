@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
-<link rel="stylesheet" href="class.css">
+    <link rel="stylesheet" href="class.css">
 </head>
 <!--Домашнее задание №6a
 Дан макет горизонтального меню.
@@ -19,63 +19,36 @@
 В HTML-комментариях пояснить, каким способом ссылки расположены в строку, каким способом сделаны разделители, а также достоинства и недостатки каждого найденного способа.
 При поднесении мыши текст ссылок должен становиться красным.
 Ссылки могут вести на любые URLы.-->
-<!--
 <body>
+    <p> первый - определить обычный div элемент и покрасить левую сторону через свойство border <br>
+        (border-right: 1px solid red;)</p> <br>
+    <div class="first">
 
-    <div style="font-size: 14px">
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 0" href="a">первая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">вторая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">третья ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">четвертая ссылка</a>
-        <a style="color: green; padding: 0 10px 0 10px" href="a">пятая ссылка</a>
+        <a href="#">первая ссылка</a>
+        <a href="#">вторая ссылка</a>
+        <a href="#">третья ссылка</a>
+        <a href="#">четвертая ссылка</a>
+        <a href="#">пятая ссылка</a>
+        <br>
     </div>
-    <div style="font-size: 14px">
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 0" href="a">первая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">вторая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">третья ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">четвертая ссылка</a>
-        <a style="color: green; padding: 0 10px 0 10px" href="a">пятая ссылка</a>
+    <p> второй - через HTML-код </p>
+
+    <div class="second">
+        <a href="#">первая ссылка</a><span>&#10072;</span>
+        <a href="#">вторая ссылка</a><span>&#10072;</span>
+        <a href="#">третья ссылка</a><span>&#10072;</span>
+        <a href="#">четвертая ссылка</a><span>&#10072;</span>
+        <a href="#">пятая ссылка</a><span>&#10072;</span>
     </div>
-    <div style="font-size: 14px">
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 0" href="a">первая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">вторая ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">третья ссылка</a>
-        <a style="color: green; border-right: solid red 3px; padding: 5px 10px 10px 10px" href="a">четвертая ссылка</a>
-        <a style="color: green; padding: 0 10px 0 10px" href="a">пятая ссылка</a>
+    <p> третий - через стилево селекторны пвесдоэлемент "after" </p>  <br>
+    <div class="third">
+        <a href="#">первая ссылка</a>
+        <a href="#">вторая ссылка</a>
+        <a href="#">третья ссылка</a>
+        <a href="#">четвертая ссылка</a>
+        <a href="#">пятая ссылка</a>
+        <br>
     </div>
-</body>
+    </body>
 
-</html>-->
-
-<body>
-   <p> первый - определить обычный div элемент и покрасить левую сторону через свойство border <br>
-      (border-right: 1px solid red;)</p> <br>
-<div class="first">
-
-    <a href="#">первая ссылка</a>
-    <a href="#">вторая ссылка</a>
-    <a href="#">третья ссылка</a>
-    <a href="#">четвертая ссылка</a>
-    <a href="#">пятая ссылка</a>
-    <br>
-</div>
-<p> второй - через HTML-код </p>
-
-<div class="t">
-    <a href="#">первая ссылка</a><span>&#10072;</span>
-    <a href="#">вторая ссылка</a><span>&#10072;</span>
-    <a href="#">третья ссылка</a><span>&#10072;</span>
-    <a href="#">четвертая ссылка</a><span>&#10072;</span>
-    <a href="#">пятая ссылка</a><span>&#10072;</span>
-</div>
-третий
-<div class="second">
-    <a href="#">первая ссылка</a><img src="../img/border.png" alt="">
-    <a href="#">вторая ссылка</a><img src="../img/border.png" alt="">
-    <a href="#">третья ссылка</a><img src="../img/border.png" alt="">
-    <a href="#">четвертая ссылка</a><img src="../img/border.png" alt="">
-    <a href="#">пятая ссылка</a>
-    <br>
-</div>
-</body>
 </html>
