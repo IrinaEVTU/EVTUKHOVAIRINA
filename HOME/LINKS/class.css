@@ -14,7 +14,7 @@ a {
     }
 
 
-div.first a {
+div.first a:not(:last-child) {
 
     border-right: 1px solid red;
 
