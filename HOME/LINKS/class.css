@@ -11,7 +11,7 @@ a {
     /* Цвет обычной ссылки */
     text-decoration: none;
     /* Убираем подчёркивание у ссылок */
-    }
+}
 
 
 div.first a:not(:last-child) {
@@ -28,9 +28,8 @@ span {
 }
 
 
-.third a::after {
-    content:'❙';
+.third a:after{
+    content: '❙';
     color: red;
-    text-decoration:inherit
+    text-decoration: inherit
 }
-   
