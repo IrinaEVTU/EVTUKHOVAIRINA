@@ -1,0 +1,28 @@
+<style>
+    .stars {
+      float: left;
+      margin: 30px;
+    }
+    div {
+      float: right;
+    }
+    div::before {
+      content: url(img/star0.png);
+    }
+    div:hover::before {
+      content: url(img/star1.png);
+    }
+    div:hover ~ div::before {
+      content: url(img/star1.png);
+    }
+  </style>
+</head>
+<body>
+  <section class="stars">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </section>
+</body>
