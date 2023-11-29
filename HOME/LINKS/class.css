@@ -4,7 +4,6 @@ a:hover {
     text-decoration: underline;
     /* Добавляем подчёркивание */
 
-
 }
 
 a {
@@ -12,8 +11,8 @@ a {
     /* Цвет обычной ссылки */
     text-decoration: none;
     /* Убираем подчёркивание у ссылок */
+    }
 
-}
 
 div.first a {
 
@@ -33,9 +32,5 @@ span {
     content:'❙';
     color: red;
     text-decoration:inherit
-
-    
-}
-.not { width: 100%;
 }
    
