@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p { color: blue; font-style: italic }
-        @media print
-        {
-            h2 { text-align: center }
-            p { color: black !important }
+        p {
+            color: blue;
+            font-style: italic
         }
+
+       /* @media print {
+            h2 {
+                text-align: center
+            }
+
+            p {
+                color: black !important
+            }
+        }
+
+        @media all and {
+            max-width: 1000px;
+
+            .banner {
+                background-color: blueviolet;
+            }
+
+        }*/
     </style>
 
 </head>
+
 <body>
-    
-   
+
+
     <h2>Мохаммед Али</h2>
     <p>Мохаммед Али &mdash; американский боксёр-профессионал, выступавший в тяжёлой весовой категории.</p>
-        <p>Один из самых известных и узнаваемых спортсменов.</p>
-        <p>После <span>чемпионского боя с Сонни Листоном</span> сменил имя на Кассиус Икс, затем на Мохаммед Али.</p>
+    <p>Один из самых известных и узнаваемых спортсменов.</p>
+    <p>После <span>чемпионского боя с Сонни Листоном</span> сменил имя на Кассиус Икс, затем на Мохаммед Али.</p>
 </body>
+
 </html>
