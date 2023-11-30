@@ -1,4 +1,4 @@
-.r {
+.red {
     float: left;
 }
 
@@ -6,8 +6,8 @@ span {
     float: right;
 }
 
-.r>span:hover::before,
-.r>span:hover~span::before {
+.red>span:hover::before,
+.red>span:hover~span::before {
     content: url('star1.png');
     position: absolute;
 }
