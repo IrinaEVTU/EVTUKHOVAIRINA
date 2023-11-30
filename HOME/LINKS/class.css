@@ -28,7 +28,7 @@ span {
 }
 
 
-.third a:after{
+.third a::before{
     content: '❙';
     color: red;
     text-decoration: inherit
