@@ -22,12 +22,17 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        a[href^='https://'] {
+            color: blue;
         }
 
         p {
             color: green;
             font-size: 1.1em;
-           /* line-height: 1.0em;*/
+            /* line-height: 1.0em;*/
         }
 
         [red] {
@@ -51,11 +56,16 @@
 </head>
 
 <body>
+
+    <p id="top"></p>
     <h1>Гарри Каспаров</h1>
     <p> Дата рождения: 13 апреля 1963 г.</p>
     <p red>Чемпион мира: 1985-1993</p>
-    
-    <p blue>  <img src='../CHESS/extref.png' alt='info' title='info'> Информация</p>
+
+    <p blue> <img src='../CHESS/extref.png' alt='info' title='info'>
+        <a href="https://www.sports.ru/tribuna/blogs/sovmirfootball/3073651.html" title="МАТЧ"
+            target="_blank">Информация</a>
+    </p>
     <span>Первый матч за звание чемпиона мира по шахматам Гарри Каспаров играл против чемпиона мира Анатолия Карпова. До
         этого они в разных <br>
         официальных соревнованиях сыграли три партии, которые закончились вничью. Для победы требовалось первым выиграть
@@ -77,6 +87,7 @@
         Каспаров на той же пресс-конференции обвинил Кампоманеса, что тот решил прервать матч тогда, когда претендент
         получил шансы на <br>
         победу. </span>
+        <p blue><a href="#top">в начало страницы</a></p>
 
 </body>
 
