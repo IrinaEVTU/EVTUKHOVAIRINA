@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            counter-reset: aaa;
+        }
+        h1{
+            counter-reset: aaa;
+        }
+        a:visited{
+            color: rgb(15, 90, 84);
+        }
+        a:link{
+            color: red;
+        }
+        a:focus{
+            font-weight: bold;
+        }
+        a:active{
+            font-style: italic;
+        }
+        a:hover{
+            background: aqua;
+        }
+        h3::before{
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+        }
+        h3::after{
+            content: ' --------222';
+        }
+        a{
+            counter-increment: aaa;
+        }
+        a::before{
+            content: 'Ссылка: ' counter(aaa) ' - ';
+        }
+    </style>
+
+</head>
+<body>
+    <a href="https://www.onliner.by/">onliner</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+
+    <h1>hello</h1>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+    <a href="https://www.av.by/">av</a> <br>
+
+   <a href="test.html"></a>
+   http://127.0.0.1:5500/lessons/lesson10/index.html
+    
+</body>
+</html>

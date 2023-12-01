@@ -1,0 +1,5 @@
+@media all and (max-width: 310px){
+    button{
+        width: 200px;
+    }
+}

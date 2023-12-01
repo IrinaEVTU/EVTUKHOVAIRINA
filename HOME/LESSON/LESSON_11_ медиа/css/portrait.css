@@ -1,0 +1,15 @@
+@media all and (orientation: portrait){
+    .test{
+        font-size: 120px;
+        color: #fff;
+        display: block;
+    }
+}
+/* test1112223335555 */
+@media print{
+    .test{
+        font-size: 120px;
+        color: #fff;
+        display: block;
+    }
+}

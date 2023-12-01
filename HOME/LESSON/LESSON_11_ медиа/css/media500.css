@@ -1,0 +1,13 @@
+@media all and (max-width: 500px) {
+    .menu{
+        width: auto;
+        float: none;
+    }
+    .banner{
+        width: auto;
+        float: none;
+    }
+    .content{
+        margin: auto;
+    }
+}
