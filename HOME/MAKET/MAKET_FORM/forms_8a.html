@@ -13,63 +13,72 @@
         }
 
         body {
-            height: 10000px;}
+            height: 10000px;
+            width: 350px;
+        }
 
         /*HTML-элемент <fieldset> используется для группировки нескольких элементов управления в веб-форме.
           HTML-элемент <legend> представляет собой заголовок содержания родительского элемента <fieldset>
             */
-
-           
     </style>
 </head>
 
 <body>
 
-    <div >
+    <div>
         <form method="post" action="https://fe.it-academy.by/TestForm.php">
 
             <fieldset style="border: double red 3px;">
-             <!--<legend></legend>-->
-             
-             <p>Для публикации вашей статьи заполните,<br>
-                пожалуйста, следующую форму:<br>
-                         </p>
-             Название статьи:<br>
-             <input type="text" name="Укажите название статьи " value="">
-             <br>
-             Рубрика:<br>
-             
-            <select name="profession">
-            <option value="1">программист</option>
-            <option value="2">дизайнер</option>
-            <option value="3">тестировщик</option>
-        </select><br>
-             <input type="text" name="lastname" value="Mouse">
-             <br><br>
-            
-             <input type="submit" value="Submit">
+                <!--<legend></legend>-->
+
+                <p>Для публикации вашей статьи заполните,<br>
+                    пожалуйста, следующую форму:<br>
+                </p>
+                <br>
+                <br>
+                Название статьи:<br>
+                <input type="text" name="Укажите название статьи " value="">
+                <br>
+                <br>
+                Рубрика:<br>
+
+                <select name="profession">
+                    <option value="1">программист</option>
+                    <option value="2">дизайнер</option>
+                    <option value="3">тестировщик</option>
+                </select><br>
+
+                <br>
+                <p> Публикация:</p>
+                <input type="radio" id="s" name="website" value="s" />
+                <label for="s">на сайте</label><br>
+
+                <input type="radio" id="g" name="log" value="g" />
+                <label for="g" в журнале>в журнале</label><br>
+
+                <input type="radio" id="sg" name="website and log" value="sg" />
+                <label for="sg">на сайте и в журнале</label><br>
+                <br>
+                Разрешить комментарии:<input type="checkbox" name="r" value="YES"><br>
+                <br>
+                Текст статьи:
+                <input type="text" name="text" value="">
+                <br>
+                <input type="submit" value="Опубликовать">
             </fieldset>
-         </form>
-
-         <fieldset>
-            <legend>Choose your favorite monster</legend>
-          
-            <input type="radio" id="kraken" name="monster" value="K" />
-            <label for="kraken">Kraken</label><br />
-          
-            <input type="radio" id="sasquatch" name="monster" value="S" />
-            <label for="sasquatch">Sasquatch</label><br />
-          
-            <input type="radio" id="mothman" name="monster" value="M" />
-            <label for="mothman">Mothman</label>
-          </fieldset>
+        </form>
 
 
 
-     </div>
+
+        </fieldset>
 
 
-    
+
+    </div>
+
+
+
 
 </body>
 
