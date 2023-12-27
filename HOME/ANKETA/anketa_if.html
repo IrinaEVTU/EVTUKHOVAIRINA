@@ -16,15 +16,29 @@
         let patronymic3 = prompt("Ваше Отчество:");
         let age = prompt("ваш возраст в годах:");
         let age5 = prompt("через 5 лет вам будет:");
-        let gender = prompt("ваш пол:");
+        let gender = prompt("ваш пол - мужской?");
 
 
-       /* alert("ваше ФИО:"firstname1 + ' ' + name2 + ' ' + patronymic3 + '\n' + "ваш возраст в годах:" age + '\n' + "через 5 лет вам будет:" age5 + '\n' + "ваш пол:" gender);*/
-        alert("ваше ФИО:"firstname1 + ' ' + name2 + ' ' + patronymic3 + '\n' + "ваш возраст в годах:" age + '\n' + "через 5 лет вам будет:" age5 + '\n' + "ваш пол:" gender);
+        /* alert("ваше ФИО:"firstname1 + ' ' + name2 + ' ' + patronymic3 + '\n' + "ваш возраст в годах:" age + '\n' + "через 5 лет вам будет:" age5 + '\n' + "ваш пол:" gender);*/
+
+        if (gender == 'да') {
+            alert('ваш пол: мужской');
+        }
+        else { alert('ваш пол: женский'); }
+
+        if (age >= 63) {
+
+            alert('вы на пенсии:да');
+        }
+        else {
+            alse('вы на пенсии:нет');
+        }
+        alert('ваше ФИО:' + firstname1 + ' ' + name2 + ' ' + patronymic3 + '\n' + 'ваш возраст в годах:' + age + '\n' + 'через 5 лет вам будет:' + age5);
+
     </script>
 </body>
 
-    </script>
+</script>
 </body>
 
 </html>
