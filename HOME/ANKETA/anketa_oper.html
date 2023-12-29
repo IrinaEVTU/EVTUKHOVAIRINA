@@ -12,26 +12,43 @@
 <body>
     <!--<script language="javascript" type="text/javascript">-->
 
-    <script type="text/javascript">
+    <script>
         let firstname1 = prompt("Ваша Фамилия:");
         let name2 = prompt("Ваше Имя:");
         let patronymic3 = prompt("Ваше Отчество:");
         let age = prompt("ваш возраст в годах:");
         let gender = confirm('ваш пол мужской - нажимте кнопку "ОК', 'да');
-       
-        age=Number(age);
-        
+
+        age = Number(age);
+
         ag = (age + 5);
 
-        if (gender) {
-            g = 'мужской';
-            if (age > 62) { pensioner = 'да'; } else { pensioner = 'нет'; }
-        }
 
-        else {
-            g = 'женский';
-            if (age > 57) { pensioner = 'да'; } else { pensioner = 'нет'; }
-        }
+
+        (gender) ? g = 'мужской' :
+            (age > 62) ? pensioner = 'да' : pensioner = 'нет';
+
+
+
+
+        /*(gender&&(age>62)?)'мужской', pensioner='да':'женский',pensioner='да';+ */
+
+
+
+
+        /*
+ 
+         _age < 18 
+             ? _age > 30 ? console.log('access denied Yes') 
+                 : console.log('access denied No')
+             : _age > 30
+                 ? console.log('access is allowed Yes')
+                 : console.log('access is allowed No')
+ 
+         var a = true ? 'Hello': 'world' */
+
+
+
 
 
 
@@ -42,6 +59,7 @@
             + 'через 5 лет вам будет: ' + ag + '\n'
             + 'ваш пол: ' + g + '\n'
             + 'вы на пенсии: ' + pensioner);
+
 
 
 
