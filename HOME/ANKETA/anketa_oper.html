@@ -25,32 +25,16 @@
 
 
 
-        (gender) ? g = 'мужской' :
-            (age > 62) ? pensioner = 'да' : pensioner = 'нет';
 
+        (gender) ? g = 'мужской' : g = 'женский';
 
-
-
-        /*(gender&&(age>62)?)'мужской', pensioner='да':'женский',pensioner='да';+ */
-
-
-
-
-        /*
- 
-         _age < 18 
-             ? _age > 30 ? console.log('access denied Yes') 
-                 : console.log('access denied No')
-             : _age > 30
-                 ? console.log('access is allowed Yes')
-                 : console.log('access is allowed No')
- 
-         var a = true ? 'Hello': 'world' */
-
-
-
-
-
+        g === 'мужской'
+            ? age > 62
+                ? pensioner = 'да'
+                : pensioner = 'нет'
+            : age > 57
+                ? pensioner = 'да'
+                : pensioner = 'нет';
 
 
         alert('ваше ФИО: ' + firstname1 + ' ' + name2 + ' ' + patronymic3 + '\n'
@@ -58,9 +42,10 @@
             + 'ваш возраст в днях: ' + age * 365 + '\n'
             + 'через 5 лет вам будет: ' + ag + '\n'
             + 'ваш пол: ' + g + '\n'
-            + 'вы на пенсии: ' + pensioner);
+            + 'вы на пенсии: ' + pensioner + '\n');
 
 
+      
 
 
     </script>
