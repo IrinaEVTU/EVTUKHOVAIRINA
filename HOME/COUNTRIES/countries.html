@@ -8,9 +8,14 @@
 
     <style>
         .button {
-            display: inline-block;
+           position: relative;
+            /*position: sticky;*/
+           top: 50px;
+            margin:5px;
+            display: block;
+            
+            
             padding: 12px 24px;
-            margin: 2px;
             font-size: 16px;
             font-weight: bold;
             text-decoration: none;
@@ -21,14 +26,15 @@
             cursor: pointer;
         }
 
-        .button:hover {
+       /* .button:hover {
             background-color: #45a049;
 
-        }
+        }*/
 
 </style>
 
         <body>
+            <div>
             <a>
             <button id="inputINF" class="button" onclick="inputINF()"  
             title="нужно последовательно спросить название страны и её столицы и добавить информацию
@@ -50,10 +56,10 @@
 
 
             <a> <button id ="del" class="button" onclick="delINF()" 
-         title="нужно спросить название страны и удалить из хэша информацию о ней" target=" _blank">удаление информации о стране
+         title="нужно спросить название страны и удалить из хэша информацию о ней">удаление информации о стране
             </a>
 
-
+</div>
         
         
       
@@ -81,6 +87,14 @@ function scrollINF() {
 var popup = window.open("", "Перечень информации", "width=400,height=200");
 
 cosole.log(countries, capital);
+
+}
+
+function delINF() {
+
+var popup = window.open("", "Получение информации", "width=400,height=200");
+
+popup.document.write("<h1>Удаление информации</h1>");
 
 }
 </script
