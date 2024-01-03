@@ -66,15 +66,15 @@
 <script>
 function inputINF() {
 
-var popup = window.open("","","width=400,height=200");
-
+var popup = window.open("","","top=100px,width=400,height=200");
+/*Синтаксис открытия нового окна: window.open(url, name, params): https://learn.javascript.ru/popup-windows*/
 
 popup.document.write("<h1>Ввод информации</h1>");
 
 }
 function outputINF() {
 
-var popup = window.open("", "Получение информации", "width=400,height=200");
+var popup = window.open("", "Получение информации", "top=100px,width=400,height=200");
 
 popup.document.write("<h1>Получение информации</h1>");
 
@@ -84,7 +84,7 @@ function scrollINF() {
 
     let countries = 'БЕЛАРУСЬ';
     let capital = 'Минск';
-var popup = window.open("", "Перечень информации", "width=400,height=200");
+var popup = window.open("", "Перечень информации", "top=100px,width=400,height=200");
 
 cosole.log(countries, capital);
 
@@ -92,7 +92,7 @@ cosole.log(countries, capital);
 
 function delINF() {
 
-var popup = window.open("", "Получение информации", "width=400,height=200");
+var popup = window.open("", "Получение информации","top=100px,width=400,height=200");
 
 popup.document.write("<h1>Удаление информации</h1>");
 
