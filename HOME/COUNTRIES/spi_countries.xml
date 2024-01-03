@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>1</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Author>admin</o:Author>
+  <o:Created>2024-01-03T08:51:32Z</o:Created>
+  <o:LastSaved>2024-01-03T09:33:15Z</o:LastSaved>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="15" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="6" ss:ExpandedColumnCount="4">
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="129.75" />
+   <Row ss:Index="1">
+    <Cell><Data ss:Type="String">№</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:Index="4"><Data ss:Type="String">https://w.wiki/8iPd</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3" />
+    <Footer x:Margin="0.3" />
+    <PageMargins x:Top="0.75" x:Bottom="0.75" x:Left="0.7" x:Right="0.7" />
+   </PageSetup>
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+     <RangeSelection>R4C8</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Лист2">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="15" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="48" ss:ExpandedColumnCount="4">
+   <Column ss:Index="2" ss:Span="1" ss:AutoFitWidth="0" ss:Width="80.25" />
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="166.5" />
+   <Row ss:Index="1">
+    <Cell ss:Index="2"><Data ss:Type="String">countries</Data>
+    </Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">capital</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell><Data ss:Type="String">№ п/п</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Государство</Data>
+    </Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Столица</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="Number">1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Нидерланды</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">11</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Амстердам</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell><Data ss:Type="Number">2</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Андорра</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">22</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Андорра-ла-Велья</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="Number">3</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Греция</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">33</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Афины</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="Number">4</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Сербия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">44</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Белград</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="Number">5</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Германия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">55</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Берлин</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="Number">6</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Швейцария</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">66</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Берн</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="Number">7</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Словакия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">77</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Братислава</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="Number">8</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Бельгия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">88</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Брюссель</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="Number">9</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Венгрия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">99</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Будапешт</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="Number">10</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Румыния</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">110</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Бухарест</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="Number">11</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Лихтенштейн</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">121</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Вадуц</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell><Data ss:Type="Number">12</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Мальта</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">132</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Валлетта</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="Number">13</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Польша</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">143</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Варшава</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell><Data ss:Type="Number">14</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Ватикан</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">154</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Ватикан</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="Number">15</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Австрия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">165</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Вена</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="Number">16</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Литва</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">176</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Вильнюс</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell><Data ss:Type="Number">17</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Ирландия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">187</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Дублин</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="20">
+    <Cell><Data ss:Type="Number">18</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Хорватия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">198</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Загреб</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="Number">19</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Украина</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">209</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Киев</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell><Data ss:Type="Number">20</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Молдавия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">220</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Кишинёв</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell><Data ss:Type="Number">21</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Дания</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">231</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Копенгаген</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24">
+    <Cell><Data ss:Type="Number">22</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Португалия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">242</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Лиссабон</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25">
+    <Cell><Data ss:Type="Number">23</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Флаг Великобритании Великобритания</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">253</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Лондон</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell><Data ss:Type="Number">24</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Словения</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">264</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Любляна</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="27">
+    <Cell><Data ss:Type="Number">25</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Люксембург</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">275</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Люксембург</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="28">
+    <Cell><Data ss:Type="Number">26</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Испания</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">286</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Мадрид</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="29">
+    <Cell><Data ss:Type="Number">27</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Белоруссия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">297</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Минск</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell><Data ss:Type="Number">28</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Монако</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">308</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Монако</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="31">
+    <Cell><Data ss:Type="Number">29</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Флаг России Россия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">319</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Москва</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="32">
+    <Cell><Data ss:Type="Number">30</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Норвегия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">330</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Осло</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="33">
+    <Cell><Data ss:Type="Number">31</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Франция</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">341</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Париж</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="34">
+    <Cell><Data ss:Type="Number">32</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Черногория</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">352</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Подгорица</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell><Data ss:Type="Number">33</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Чехия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">363</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Прага</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell><Data ss:Type="Number">34</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Исландия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">374</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Рейкьявик</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="37">
+    <Cell><Data ss:Type="Number">35</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Латвия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">385</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Рига</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="38">
+    <Cell><Data ss:Type="Number">36</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Италия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">396</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Рим</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell><Data ss:Type="Number">37</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Сан-Марино</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">407</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Сан-Марино</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="40">
+    <Cell><Data ss:Type="Number">38</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Босния и Герцеговина</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">418</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Сараево</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="41">
+    <Cell><Data ss:Type="Number">39</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Северная Македония</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">429</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Скопье</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="42">
+    <Cell><Data ss:Type="Number">40</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Болгария</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">440</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">София</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="43">
+    <Cell><Data ss:Type="Number">41</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Швеция</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">451</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Стокгольм</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="44">
+    <Cell><Data ss:Type="Number">42</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Эстония</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">462</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Таллин</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell><Data ss:Type="Number">43</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Албания</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">473</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Тирана</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell><Data ss:Type="Number">44</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Финляндия</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">484</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Хельсинки</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="47">
+    <Cell><Data ss:Type="String">—</Data>
+    </Cell>
+    <Cell><Data ss:Type="String"> Республика Косово[a]</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">495</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Приштина</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="48">
+    <Cell><Data ss:Type="String">—</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Flag of Transnistria (state).svg Приднестровская Молдавская Республика[b]</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">506</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Тирасполь</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3" />
+    <Footer x:Margin="0.3" />
+    <PageMargins x:Top="0.75" x:Bottom="0.75" x:Left="0.7" x:Right="0.7" />
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo />
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <RangeSelection>R2C1</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
