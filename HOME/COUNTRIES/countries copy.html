@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .button {
+            position: relative;
+            /*position: sticky;*/
+            top: 50px;
+            margin: 5px;
+            display: block;
+
+
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+        }
+        .hidden {
+    display:none;
+  }
+
+        /* .button:hover {
+            background-color: #45a049;
+
+        }*/
+    </style>
+
+<body>
+    
+
+    <div>
+        <a>
+            
+            <button id="inputINF" class="button" onclick="inputINF(event)" title="нужно спросить название страны и либо выдать информацию по ней (столицу),
+                либо выдать нет информации о стране "> "ввод информации о стране" </button>
+
+           <!--   title="нужно последовательно спросить название страны и её столицы и добавить информацию
+            о стране в хэш"-->
+              
+
+            <!--https://doka.guide/js/deal-with-forms/-->
+        </a>
+
+        <a>
+            <button id="outputINF" class="button" onclick="outputINF()" title="нужно спросить название страны и либо выдать информацию по ней (столицу),
+                либо выдать нет информации о стране "> "получение информации о стране" </button>
+        </a>
+
+
+        <a>
+            <button id="scrollINF" class="button" onclick="scrollINF()"
+                title="нужно выдать перечень всех стран и их столицы в консоль"> "перечень всех стран" </button>
+        </a>
+
+
+
+        <a> <button id="del" class="button" onclick="delINF()"
+                title="нужно спросить название страны и удалить из хэша информацию о ней"> "удаление информации о стране" </button>
+        </a>
+
+    </div>
+
+
+
+    <script>
+
+function inputINF(event) {
+  console.log('Вы нажали на элемент:', event.target)
+ 
+ 
+}
+
+window.addEventListener('click', inputINF)
+window.addEventListener('click', inputINF, true)
+window.addEventListener('click', inputINF, false)
+window.addEventListener('click', inputINF, {
+  passive: true,
+  capture: false,
+}) 
+
+
+function inputINF111(event) {
+//Просим форму не отправлять данные самостоятельно  https://doka.guide/js/deal-with-forms/
+ const element = document.querySelector('button')
+
+element.addEventListener('click', function (event) {
+  console.log('Произошло событие', event.type)
+})
+    } 
+/*  let popup = window.open("", "", "top=100px,width=400,height=200");*/
+            /*Синтаксис открытия нового окна: window.open(url, name, params): https://learn.javascript.ru/popup-windows*/
+
+
+            /*let countries = 'БЕЛАРУСЬ';
+            let capital = 'Минск';
+
+            
+                <form method="post" action="https://fe.it-academy.by/TestForm.php">
+
+                    <fieldset style="border: double red 3px;">
+
+                        Название страны:<br>
+                            <input type="text" name="Укажите название страны " value="">
+                                <br>
+                                    <br>
+                                        Название столицы:<br>
+
+                                            <select name="profession">
+                                                <option value="1">программист</option>
+                                                <option value="2">дизайнер</option>
+                                                <option value="3">тестировщик</option>
+
+                                                <input type="submit" value="Опубликовать">
+                    </fieldset>
+                </form>*/
+
+popup.document.write("<h1>Ввод информации</h1>");
+
+
+
+                                    function outputINF() {
+
+var popup = window.open("", "Получение информации", "top=100px,width=400,height=200");
+
+                                    popup.document.write("<h1>Получение информации</h1>");
+
+}
+
+                                    function scrollINF() {
+
+   
+var popup = window.open("", "Перечень информации", "top=100px,width=400,height=200");
+
+                                   /* cosole.log(countries, capital);*/
+
+}
+
+                                    function delINF() {
+
+var popup = window.open("", "Получение информации","top=100px,width=400,height=200");
+
+                                    popup.document.write("<h1>Удаление информации</h1>");
+
+}
+    </script
+
+        </body>
+        </html>
