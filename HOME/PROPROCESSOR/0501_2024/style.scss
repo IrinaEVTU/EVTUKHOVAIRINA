@@ -1,0 +1,54 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 10000px;
+}
+
+h1 {
+    color: $red;
+    font-size: $size + 50px;
+
+    span{
+        color: blue;
+        font-size: $size - 10px;
+
+        &:hover{
+            color: green;
+        }
+
+    } 
+}
+
+.btn{
+    @include button($btn1_w, $btn1_h,indianred, rgb(75, 202, 185));
+
+    @include media(1000px) { width: 100px; height: 200px; }
+    @include media(800px) { background-color: lawngreen; }
+}
+
+.btn1{
+
+    background: url() 50% 20px no-repeat,url() 50% 20px no-repeat, ;
+
+    @include button(100px,80px,rgb(19, 204, 44), rgb(202, 75, 196))
+}
+
+
+
+ul{
+    @for $hhh from 1 through 4
+    {
+        li.img#{$hhh}
+        {
+           background-image: url('img/' + $hhh + '.jpg');
+        }
+    }
+}
+    

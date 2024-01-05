@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="icons/css/all.css">
+    <style>
+        @keyframes begemot {
+            from{
+                color: blue;
+                font-size: 20px;
+                left: 0px;
+                transform: skewX(-40deg);
+            }
+            25%{
+                font-size: 80px;
+                transform: skewX(40deg);
+            }
+            50%{
+                font-size: 20px;
+                transform: skewX(40deg);
+            }
+            to{
+                color: red;
+                left: 500px;
+                font-size: 80px;
+                transform: skewX(-40deg);
+            }
+        }
+        .fa-hippo{
+            top: 50px;
+            z-index: 999;
+            position: absolute;
+            animation: begemot 5s 1;
+            animation-fill-mode: forwards;
+        }
+        .fa-hippo:hover {
+            color: red;
+            font-style: italic;
+            font-size: 80px;
+        }
+
+        iframe {
+            width: 200px;
+            height: 300px;
+            display: -webkit-flex;
+            display: -moz-flex;
+        }
+
+        .wrap {
+            background: linear-gradient(45deg, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+            width: 300px;
+            height: 300px;
+            -webkit-box-shadow: 9px 8px 25px 1px rgba(0, 0, 0, 0.48);
+            box-shadow: 9px 8px 25px 1px rgba(0, 0, 0, 0.48);
+            text-shadow: 6px 5px 5px rgba(255, 10, 10, 1);
+            transition: 2s;
+            transform: scale(0.9) rotate(181deg) translate(2px, 3px) skew(31deg, 5deg);
+        }
+        .wrap::selection{
+            background: #02114A;
+            color: rgb(46, 230, 46);
+        }
+
+        h1 {
+            color: #92a5de;
+            background: #FF0000;
+            text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB, 4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790, 9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64, 14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039, 19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0, 0, 0, 1), 21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, .2);
+        }
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+    <i class="fa-solid fa-hippo"></i>
+
+    <div class="wrap">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia odio numquam amet error, atque temporibus
+        magnam! Sapiente reprehenderit dolores ipsa dicta tenetur voluptatem commodi voluptatibus eius doloremque, iste,
+        nemo ipsum?
+    </div>
+
+    <iframe src="https://www.youtube.com/embed/duraql3ZxI0?si=Nac0Z4eKqkQm_KX9" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>

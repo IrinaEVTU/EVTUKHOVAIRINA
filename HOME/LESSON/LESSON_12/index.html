@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            user-select: none;
+        }
+        body{
+            height: 10000px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="http://fe.it-academy.by/TestForm.php" method="POST">
+        <input type="text" name="login" value="test"> <br>
+        <input type="text" name="pass" autofocus> <br>
+        <label>
+            <input type="checkbox" name="check[]" value="blabla1"> one
+        </label>
+        
+        <input type="checkbox" name="check[]" value="blabla2" id="two">
+        <label for="two">two</label> 
+        <input type="checkbox" name="check[]" value="blabla3"> three
+        <input type="checkbox" name="check[]" value="blabla4"> four
+        <input type="checkbox" name="check[]" value="blabla5"> five
+
+        <hr>
+
+        <input type="radio" name="radio" value="blabla1">
+        <input type="radio" name="radio" value="blabla2">
+        <input type="radio" name="radio" value="blabla3">
+        <input type="radio" name="radio" value="blabla4">
+        <input type="radio" name="radio" value="blabla5">
+
+        <hr>
+        <input type="radio" name="radio1" value="blabla1">
+        <input type="radio" name="radio1" value="blabla2">
+        <input type="radio" name="radio1" value="blabla3">
+        <input type="radio" name="radio1" value="blabla4">
+        <input type="radio" name="radio1" value="blabla5">
+        <textarea name="mytext" maxlength="10">Я считаю, что...</textarea><br>
+       
+        <select name="animalkind[]" size="5" multiple >
+            <optgroup label="part1">
+                <option value="7">кошка</option>
+                <option value="5">собака</option>
+                <option value="8">попугай</option>
+                <option value="9" >тушкан</option>
+                <option value="7" disabled>кошка</option>
+                <option value="5" selected>собака</option>
+                <option value="8">попугай</option>
+            </optgroup>
+            <optgroup label="part2">
+                <option value="9">тушкан</option>
+                <option value="7">кошка</option>
+                <option value="5">собака</option>
+                <option value="8">попугай</option>
+                <option value="9">тушкан</option>
+            </optgroup>
+        </select>
+
+        <input type="submit">
+    </form>
+   
+</body>
+</html>

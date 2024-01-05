@@ -1,0 +1,21 @@
+@mixin button($w,$h,$bg,$bg1) {
+    width: $w;
+    height: $h;
+    background-color: $bg;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+
+    &:hover{
+        width: 300px;
+        background-color: $bg1;
+        color: #000;
+    }
+}
+
+@mixin media($w) {
+    @media all and (max-width: $w)
+    {
+        @content;
+    }
+}

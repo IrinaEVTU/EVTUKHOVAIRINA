@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  height: 10000px; }
+
+h1 {
+  color: #cf2b2b;
+  font-size: 70px; }
+  h1 span {
+    color: blue;
+    font-size: 10px; }
+    h1 span:hover {
+      color: green; }
+
+.btn {
+  width: 250px;
+  height: 20px;
+  background-color: indianred;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .btn:hover {
+    width: 300px;
+    background-color: #4bcab9;
+    color: #000; }
+  @media all and (max-width: 1000px) {
+    .btn {
+      width: 100px;
+      height: 200px; } }
+  @media all and (max-width: 800px) {
+    .btn {
+      background-color: lawngreen; } }
+
+.btn1 {
+  width: 100px;
+  height: 80px;
+  background-color: #13cc2c;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .btn1:hover {
+    width: 300px;
+    background-color: #ca4bc4;
+    color: #000; }
+
+ul li.img1 {
+  background-image: url("img/1.jpg"); }
+ul li.img2 {
+  background-image: url("img/2.jpg"); }
+ul li.img3 {
+  background-image: url("img/3.jpg"); }
+ul li.img4 {
+  background-image: url("img/4.jpg"); }

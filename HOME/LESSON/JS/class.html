@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get"><input style="color: red;" type="text"><input type="text"><input type="text"></form>
+    <button onclick="changeBtn()">click</button>
+
+    <div id="test"></div>
+
+    <script>
+        function changeBtn(){
+           var elem = document.getElementById('test');
+           elem.innerHTML = "<h1>Hello</h1>"
+        }
+
+        console.log('-----window', Window)
+        var obj = new Object()
+        obj.toString = function(){
+            console.log('Hello')
+        }
+
+        function Car(model, brand, color, transmisson){
+            this.model = model;
+            this.brand = brand;
+            this.color = color;
+            this.transmisson = transmisson;
+
+            this.run = function(){
+                console.log('car is run')
+            }
+        }
+
+
+        var bmw = new Car('M5', 'BMW', 'black', 'A')
+        var mers = new Car('E', 'Mercedes', 'black', 'M')
+
+        var array = new Array()
+
+        // var bmw = {
+        //     brand: "BMW",
+        //     color: "black",
+        //     model: "m5",
+        //     transmisson: "A",
+        //     drive: "A",
+        // }
+
+        // var mers = {
+        //     brand: "Mercedes",
+        //     color: "black",
+        //     model: "E",
+        //     transmisson: "M",
+        //     ship: true,
+        // }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div onclick="add()">hello</div>
+    
+    <script>
+
+        var countrysH={};
+
+        function addCountry(countryName,capitalName) {
+            countrysH[countryName]=capitalName;
+        }
+
+        function add(){
+            var a = prompt();
+            var b = prompt();
+            addCountry(a,b)
+        }
+
+     
+
+        // var user1 = ['Ivan', "Ivanov", 25];
+        // var user2 = [ "Petr", "Petrov", 30];
+        // var user3 = [ "Sidr", "Sidorov", 35];
+        // var user4 = [ "Orlova", 40, "Olga"];
+
+        var user1 = {
+            lastname: "Ivanov",
+            age: 25,
+            name: "Ivan",
+        }
+
+        var user2 = {
+            age: 30,
+            lastname: "Petrov",
+            name: "Petr",
+        }
+        var a = 'last';
+        var b = 'name';
+
+       
+
+        // console.log('-----1', user1[b+a]);
+        user2.gender = "man"
+        
+
+        for(var key in user2){
+            console.log('key: ' + key + ' value: ' + user2[key]);
+        }
+
+        delete user2.name;
+
+
+        function getUserData(user){
+            console.log('name: ', user[0]);
+            console.log('lastname: ', user[1]);
+            console.log('age: ', user[2]);
+            console.log('==============')
+        }
+
+        // getUserData(user1);
+        // getUserData(user2);
+        // getUserData(user3);
+        // getUserData(user4);
+
+    </script>
+
+</body>
+</html>
