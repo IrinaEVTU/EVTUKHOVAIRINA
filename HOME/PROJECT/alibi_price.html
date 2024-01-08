@@ -39,7 +39,7 @@
         <input type="text" id="dd" value="" placeholder="Количество зрителей"><br>
 
         <div id="ploschad"></div>
-        <!--<div id="stoimost"></div>-->
+        <div id="stoimost"></div>
 
 
         <button class="button" onclick="raschitat()">Рассчитать</button>
@@ -83,9 +83,9 @@
                 alert("Укажите количество зрителей");
             } else {
                 ploschad = parseFloat(s) * parseFloat(dd);
-                document.getElementById('ploschad').innerHTML = "Минимальная стоимость: " + ploschad + "BYN";
+                /*document.getElementById('ploschad').innerHTML = "УбратьМинимальная стоимость: " + ploschad + "BYN";*/
                 stoimost = ploschad * cena;
-                document.getElementById('stoimost').innerHTML = "МMинимальная стоимость: " + stoimost + " BYN";
+                document.getElementById('stoimost').innerHTML = "от : " + stoimost + " BYN";
             }
         }
     </script>
