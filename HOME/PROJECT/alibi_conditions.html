@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIBI</title>
+    <link rel="stylesheet" href="../PROJECT/style.css">
+
+
+</head>
+
+<body>
+
+
+    <div> <a class="footer" href="../PROJECT/alibi_oNas.html" target="_blank">О нас</a></div>
+    <br>
+    <div> <a class="footer" href="../PROJECT/alibi_services.html" target="_blank">Услуги</a></div>
+    <br>
+    <div> <a class="footer" href="../PROJECT/alibi_contact.html" target="_blank">Контакты</a></div>
+    <br>
+    <div> <a class="footer" href="../PROJECT/alibi_price.html" target="_blank">Расчет услуги</a></div>
+    <div>
+        <br>
+        <br>
+        <div>
+            <p class="tel"><b>Условия работы</b> агентства состоят из небольшого свода правил.
+                Алиби создаётся для решения конфликтных ситуаций в отношениях и не предназначено для введение в
+                заблуждение
+                правоохранительные органы и организации. В Москве и Санкт-Петербурге предоставляются все услуги. В
+                других
+                городах
+                мира оказываем услуги по возможности.
+                Уважаемые новые клиенты, мы с пониманием относимся к тому, что Вы хотите встретиться тет-а-тет.
+                Наши условия предполагают сначала обсуждение ситуации по телефону или в электронной почте. После
+                принятия
+                решения о сотрудничестве с Вами и в зависимости от стоимости заявки назначаются встречи.
+                Коллектив Алиби агентства понимает, что клиенты имеют разный достаток. Каждый оценивает стоимость заказа
+                по
+                своему.У нас свой взгляд на большие или небольшие деньги, поэтому необходимость встречи измеряется не
+                рублём, а
+                необходимостью. Мы не сторонимся личных встреч, но ценим свое время.Несколько слов о доверии. Ничто, так
+                не укрепляет его , как предоплата.
+                Мы серьёзно воспринимаем каждое обращение за помощью, поэтому берёмся за работу после оплаты.
+                План действий согласовывается и предоставляется нами без каких-либо финансовых обязательств с вашей
+                стороны.
+            </p>
+        </div>
+        <br>
+    </div>
+    <div class="snowblock"></div>
+
+    <br>
+    <br>
+    <br>
+    <ul class="time" id="d">
+        <li></li>
+        <li></li>
+    </ul>
+    <script>
+        Li();
+        setInterval(Li, 100);
+
+        function Li() {
+            d = new Date();
+            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
+            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
+            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
+            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
+        }
+    </script>
+
+</body>
+
+</html>

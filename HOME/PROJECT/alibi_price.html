@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIBI</title>
+    <link rel="stylesheet" href="../PROJECT/style.css">
+
+
+</head>
+
+<body>
+    <div class="snowblock"></div>
+
+    <div>
+
+        <a class="footer" href="../PROJECT/alibi_oNas.html" target="_blank">О нас</a>
+
+        <a class="footer" href="../PROJECT/alibi_services.html" target="_blank">Услуги</a>
+
+        <a class="footer" href="../PROJECT/alibi_conditions.html" target="_blank">Условия</a>
+
+        <a class="footer" href="../PROJECT/alibi_contact.html" target="_blank">Контакты</a>
+
+    </div>
+    <br>
+    <br>
+    <div class="forma">
+        <label>Расчет стоимости услуг</label><br>
+        <select id="scenario">
+            <option value="trip">Командировка</option>
+            <option value="wish">Исполнение необычных желаний</option>
+            <option value="job">Виртуальная работа</option>
+        </select>
+        <br>
+        <br>
+        <input type="text" id="s" value="" placeholder="Количество дней"><br>
+        <input type="text" id="dd" value="" placeholder="Количество зрителей"><br>
+
+        <div id="ploschad"></div>
+        <!--<div id="stoimost"></div>-->
+
+
+        <button class="button" onclick="raschitat()">Рассчитать</button>
+    </div>
+    <div>
+        <br>
+        <ul class="time" id="d">
+            <li></li>
+            <li></li>
+        </ul>
+
+
+    </div>
+
+
+
+
+    <script>
+
+        function raschitat() {
+            scenario = document.getElementById('scenario').value;
+            switch (scenario) {
+                case "trip":
+                    cena = 5000;
+                    break
+                case "wish":
+                    cena = 10000;
+                    break
+                case "job":
+                    cena = 2000;
+                    break
+                default:
+                    cena = 2000;
+                    break
+            }
+            s = document.getElementById('s').value;
+            dd = document.getElementById('dd').value;
+            if (s == "") {
+                alert("Укажите продолжительность, в днях");
+            } else if (dd == "") {
+                alert("Укажите количество зрителей");
+            } else {
+                ploschad = parseFloat(s) * parseFloat(dd);
+                document.getElementById('ploschad').innerHTML = "Минимальная стоимость: " + ploschad + "BYN";
+                stoimost = ploschad * cena;
+                document.getElementById('stoimost').innerHTML = "МMинимальная стоимость: " + stoimost + " BYN";
+            }
+        }
+    </script>
+    </form>
+    <script>
+        Li();
+        setInterval(Li, 100);
+
+        function Li() {
+            d = new Date();
+            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
+            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
+            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
+            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
+        }
+    </script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIBI</title>
+    <link rel="stylesheet" href="../PROJECT/style.css">
+
+
+</head>
+
+<body>
+        <div> <a class="footer" href="../PROJECT/alibi_oNas.html" target="_blank">О нас</a></div>
+        <br>
+        <div> <a class="footer" href="../PROJECT/alibi_services.html" target="_blank">Услуги</a></div>
+        <br>
+        <div> <a class="footer" href="../PROJECT/alibi_conditions.html" target="_blank">Условия</a></div>
+        <br>
+        <div> <a class="footer" href="../PROJECT/alibi_price.html" target="_blank">Расчет услуги</a></div>
+
+        <div>
+           
+<br>
+<br>
+
+            <div>
+                <a class="tel" href="tel:+358955505050"> Позвоните нам: +358 9 555-050-50 </a><br>
+                <a class="tel" href="mailto:alibi_vip@icloud.com">Напишите нам: alibi@icloud.com</a>
+            </div>
+            <img class="img_r" id="ellipse_01" src="../PROJECT/pictures/contact_ico-300x170.png">
+<br>
+<br>
+<br>
+           
+        </div>
+    
+
+    <div class="snowblock"></div>
+
+<br>
+    <ul class="time" id="d">
+        <li></li>
+        <li></li>
+    </ul>
+    <script>
+        Li();
+        setInterval(Li, 100);
+
+        function Li() {
+            d = new Date();
+            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
+            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
+            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
+            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
