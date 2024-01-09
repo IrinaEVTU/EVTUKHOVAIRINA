@@ -2,60 +2,81 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <style>
-    * {
-        margin: 0;
-        padding: 0;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+  }
 
 
-    body {
-        display: flex;
+  body {
+    display: flex;
 
-        flex-direction: column;
+    flex-direction: column;
 
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background: url('../pictures/element.png') no-repeat;
-        background-size: cover;
-        background-position: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../pictures/element.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 
-        backdrop-filter: blur(5px);
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    backdrop-filter: blur(5px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 
-    }
+  }
 
-    .SBottomRightCell {
-        background-color: rgb(78, 174, 59);
-        text-align: right;
-        padding: 15px 34px 15px 10px;
-        white-space: nowrap;
-        width: 120px;
-        margin-top: -5px;
-    }
+  .SBottomRightCell {
+    background-color: rgb(78, 174, 59);
+    text-align: right;
+    padding: 15px 34px 15px 10px;
+    white-space: nowrap;
+    width: 120px;
+    margin-top: -5px;
+  }
 </style>
 
 <body>
 
-<div>
-    <img id="ellipse_01" src="../pictures/contact_ico-300x170.png"> 
-    <img id="ellipse_01" src="../pictures/logotip05012024.jpg"> 
-</div>
+  <div>
+    <img id="ellipse_01" src="../pictures/contact_ico-300x170.png">
+    <img id="ellipse_01" src="../pictures/logotip05012024.jpg">
+  </div>
 
-    <div class='SBottomRightCell'>
-        <p> &copy; Образовательный центр</p>
-        <p> Парка высоких технологий, 2011-2024</p>
+  <div class='SBottomRightCell'>
+    <p> &copy; Образовательный центр</p>
+    <p> Парка высоких технологий, 2011-2024</p>
 
-    </div>
+  </div>
 
-
+  <ol itemscope itemtype="../PROJECT/alibi_veb1">
+    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a itemprop="item" href="/">
+        <span itemprop="name">Главная</span></a>
+      <meta itemprop="position" content="1″ />
+      </li>
+      <li itemprop=" itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a itemprop="item" href="/catalog/">
+        <span itemprop="name">Каталог</span></a>
+      <meta itemprop="position" content="2″ />
+      </li>
+      <li itemprop=" itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a itemprop="item" href="/catalog/woman/">
+        <span itemprop="name">Женская одежда</span></a>
+      <meta itemprop="position" content="3″ />
+      </li>
+      <li itemprop=" itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      <a itemprop="item" href=" /catalog/woman/dress/">
+        <span itemprop="name">Платья</span></a>
+      <meta itemprop="position" content="4″ />
+      </li>
+      </ol>
   
 ul.breadcrumb {
   padding: 10px 16px;
@@ -69,30 +90,23 @@ ul.breadcrumb li {
 ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
-  content: "/\00a0";
-}
-ul.breadcrumb li a {
-  color: #0275d8;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-  text-decoration: underline;
-}
-</style>
-</head>
-<body>
-<h1>Пагинация</h1>
+  content: " /\00a0"; } ul.breadcrumb li a { color: #0275d8; text-decoration: none; } ul.breadcrumb li a:hover { color:
+        #01447e; text-decoration: underline; } </style>
+      </head>
 
-<h2>Разбивка на страницы</h2>
-<ul class="breadcrumb">
-  <li><a href="#">Главная</a></li>
-  <li><a href="#">Картины</a></li>
-  <li><a href="#">Лето 15</a></li>
-  <li>Италия</li>
-</ul>
+      <body>
+        <h1>Пагинация</h1>
 
-</body>
+        <h2>Разбивка на страницы</h2>
+        <ul class="breadcrumb">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Картины</a></li>
+          <li><a href="#">Лето 15</a></li>
+          <li>Италия</li>
+        </ul>
+
+      </body>
+
 </html>
 
 
