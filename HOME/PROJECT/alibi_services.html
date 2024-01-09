@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <div> <a class="footer" href="../PROJECT/alibi_ved1.html" target="_self">На главную</a></div>
     <div> <a class="footer" href="../PROJECT/alibi_oNas.html" target="_self">О нас</a></div>
     <div> <a class="footer" href="../PROJECT/alibi_conditions.html" target="_self">Условия</a></div>
@@ -27,21 +28,16 @@
     </div>
     <div class="img_">
         <div>
-            <img class="img_" id="ellipse_01" src="../PROJECT/pictures/job.jpg" width="150xp" height="100px">
-        </div>
-        <div>
-            <img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_3.jpg" width="150xp" height="100px">
-        </div>
-        <div>
-            <img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_1.jpg" width="150xp" height="100px">
-        </div>
-        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_2.jpg" width="150xp" height="100px"></div>
-        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/trip.jpg" width="150xp" height="100px"></div>
+            <img class="img_" id="ellipse_01" src="../PROJECT/pictures/job.jpg" width="150xp" height="100px" alt="job"> </div>
+        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_3.jpg" width="150xp" height="100px" alt="wish_3"> </div>
+        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_1.jpg" width="150xp" height="100px" alt="wish_1"></div>
+        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/wish_2.jpg" width="150xp" height="100px" alt="wish_2"></div>
+        <div><img class="img_" id="ellipse_01" src="../PROJECT/pictures/trip.jpg" width="150xp" height="100px" alt="trip"></div>
 
         <br>
         <br>
 
-
+        <div class="snowblock"></div>
 
     </div>
 
@@ -55,21 +51,10 @@
         <li></li>
         <li></li>
     </ul>
-    <script>
-        Li();
-        setInterval(Li, 100);
+   
 
-        function Li() {
-            d = new Date();
-            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
-            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
-            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
-            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
-        }
-    </script>
-
-
-
+    <script src="../PROJECT/time.js"></script>
+    
 
 </body>
 

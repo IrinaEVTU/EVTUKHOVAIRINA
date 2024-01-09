@@ -89,12 +89,24 @@
         .forma {
             margin: 5px;
             width: 300px;
-            height: 150px;
+            height: 250px;
             /*height: 700px;
             width: 700px;*/
             background-color: rgba(32, 31, 31, 0.925);
             border: 2px solid rgba(223, 191, 7, 0.788);
 
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 21px;
+            color: #fff;
+        }
+        .forma_A {
+            margin: 5px;
+            width: 300px;
+            height: 250px;
+            /*height: 700px;
+            width: 700px;*/
+            background-color: rgba(32, 31, 31, 0.925);
             border-radius: 15px;
             padding: 20px;
             font-size: 21px;
@@ -200,8 +212,6 @@
             padding-left: 250px;
             padding-bottom: 200px;*/
 
-
-
         }
 
         .footer {
@@ -213,10 +223,6 @@
             font-size: 25px;
             text-align: justify;
             display: block;
-
-
-
-
 
         }
 
@@ -260,6 +266,7 @@
             border: solid rgba(223, 191, 7, 0.788) 1px;
         }
 
+    
         .color {
             display: block;
             color: #4c3e0e;

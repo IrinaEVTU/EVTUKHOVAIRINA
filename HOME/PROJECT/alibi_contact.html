@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../PROJECT/style.css">
 
 
+
 </head>
 
 <body>
@@ -26,7 +27,7 @@
             <a class="tel" href="tel:+358955505050"> &#9742; Позвоните нам: +358 9 555-050-50 </a><br>
             <a class="tel" href="mailto:alibi_vip@icloud.com">Напишите нам: alibi@icloud.com</a>
         </div>
-        <img class="img_r" id="ellipse_01" src="../PROJECT/pictures/contact_ico-300x170.png">
+        <img class="img_r" id="ellipse_01" src="../PROJECT/pictures/contact_ico-300x170.png" alt='tel'>
         <br>
         <br>
         <br>
@@ -41,20 +42,12 @@
         <li></li>
         <li></li>
     </ul>
-    <script>
-        Li();
-        setInterval(Li, 100);
+   
 
-        function Li() {
-            d = new Date();
-            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
-            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
-            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
-            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
-        }
-    </script>
-
-
+    
+    <script src="../PROJECT/time.js"></script>
+       
+  
 
 
 </body>

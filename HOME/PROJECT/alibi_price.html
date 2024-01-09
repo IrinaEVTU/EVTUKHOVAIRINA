@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <div><a class="footer" href="../PROJECT/alibi_ved1.html" target="_self">На главную</a></div>
     <div> <a class="footer" href="../PROJECT/alibi_oNas.html" target="_self">О нас</a></div>
     <div> <a class="footer" href="../PROJECT/alibi_services.html" target="_self">Услуги</a></div>
@@ -27,15 +26,11 @@
             <option value="wish">Исполнение необычных желаний</option>
             <option value="job">Виртуальная работа</option>
         </select>
-        <br>
-        <br>
         <input type="text" id="s" value="" placeholder="Количество дней"><br>
         <input type="text" id="dd" value="" placeholder="Количество зрителей"><br>
-
         <div id="ploschad"></div>
         <div id="stoimost"></div>
-
-
+        
         <button class="button" onclick="raschitat()">Рассчитать</button>
         <br>
     </div>
@@ -48,9 +43,8 @@
             <li></li>
             <li></li>
         </ul>
-
-
     </div>
+
 
     <div class="snowblock"></div>
 
@@ -79,26 +73,13 @@
                 alert("Укажите количество зрителей");
             } else {
                 ploschad = parseFloat(s) * parseFloat(dd);
-                /*document.getElementById('ploschad').innerHTML = "УбратьМинимальная стоимость: " + ploschad + "BYN";*/
                 stoimost = ploschad * cena;
                 document.getElementById('stoimost').innerHTML = "от : " + stoimost + " BYN";
             }
         }
     </script>
-    </form>
-    <script>
-        Li();
-        setInterval(Li, 100);
-
-        function Li() {
-            d = new Date();
-            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря");
-            var week = new Array("воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота");
-            document.getElementById('d').getElementsByTagName('li')[0].innerHTML = 'Дата: ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + d.getFullYear() + ' года, ' + week[d.getDay()];
-            document.getElementById('d').getElementsByTagName('li')[1].innerHTML = 'Время: ' + ((d.getHours() < 10) ? "0" : "") + d.getHours() + ':' + ((d.getMinutes() < 10) ? "0" : "") + d.getMinutes() + ':' + ((d.getSeconds() < 10) ? "0" : "") + d.getSeconds();
-        }
-    </script>
-    </form>
+    
+    <script src="../PROJECT/time.js"></script>
 </body>
 
 </html>
