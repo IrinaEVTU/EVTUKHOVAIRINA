@@ -162,10 +162,10 @@
             font-size: 15px;
             text-align: justify;
             color: #d2b452;
-            padding-left:50px;
-            padding-right:50px;
-            line-height: 25px; /* интервал между строк*/
-            padding-top:20px;
+            padding-left: 50px;
+            padding-right: 50px;
+            line-height: 20px; /* интервал между строк*/
+            padding-top: 20px;
             text-decoration: none;
             margin-top: -50px;
             border-left-width: 60px;
@@ -194,6 +194,12 @@
             color: #d1ae3c;
             font-size: 12px;
             text-align: justify;
+            line-height: 25px;
+
+            /* display: block;
+            padding-left: 250px;
+            padding-bottom: 200px;*/
+
 
 
         }
@@ -236,7 +242,7 @@
             /*position: sticky;*/
             top: 20px;
             margin: 50px;
-            display: block;
+           /* display: block; вернуть*/
 
             padding: 12px 24px;
             font-size: 30px;
@@ -260,7 +266,6 @@
             height: 10px;
             width: 400px;
             margin: 50px;
-
             text-align: center;
         }
 
