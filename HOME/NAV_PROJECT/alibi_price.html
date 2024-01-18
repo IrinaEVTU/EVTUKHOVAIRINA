@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>price</title>
+    <link rel="stylesheet" href="../PROJECT/style.css">
+
+
+</head>
+
+<body>
+    <div><a class="footer" href="../PROJECT/alibi_ved1.html" target="_self">На главную</a></div>
+    <div> <a class="footer" href="../PROJECT/alibi_oNas.html" target="_self">О нас</a></div>
+    <div> <a class="footer" href="../PROJECT/alibi_services.html" target="_self">Услуги</a></div>
+    <div> <a class="footer" href="../PROJECT/alibi_conditions.html" target="_self">Условия</a></div>
+    <div> <a class="footer" href="../PROJECT/alibi_contact.html" target="_self">Контакты</a></div>
+
+    <br>
+    <br>
+    <div class="forma">
+        <label>Расчет стоимости услуг</label><br>
+        <select id="scenario">
+            <option value="trip">Командировка</option>
+            <option value="wish">Исполнение необычных желаний</option>
+            <option value="job">Виртуальная работа</option>
+        </select>
+        <input type="text" id="s" value="" placeholder="Количество дней"><br>
+        <input type="text" id="dd" value="" placeholder="Количество зрителей"><br>
+        <div id="ploschad"></div>
+        <div id="stoimost"></div>
+        
+        <button class="button" onclick="raschitat()">Рассчитать</button>
+        <br>
+    </div>
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul class="time" id="d">
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+    <div class="snowblock"></div>
+
+    <script>
+        function raschitat() {
+            scenario = document.getElementById('scenario').value;
+            switch (scenario) {
+                case "trip":
+                    cena = 5000;
+                    break
+                case "wish":
+                    cena = 10000;
+                    break
+                case "job":
+                    cena = 2000;
+                    break
+                default:
+                    cena = 2000;
+                    break
+            }
+            s = document.getElementById('s').value;
+            dd = document.getElementById('dd').value;
+            if (s == "") {
+                alert("Укажите продолжительность, в днях");
+            } else if (dd == "") {
+                alert("Укажите количество зрителей");
+            } else {
+                ploschad = parseFloat(s) * parseFloat(dd);
+                stoimost = ploschad * cena;
+                document.getElementById('stoimost').innerHTML = "от : " + stoimost + " BYN";
+            }
+        }
+    </script>
+    
+    <script src="../PROJECT/time.js"></script>
+</body>
+
+</html>
